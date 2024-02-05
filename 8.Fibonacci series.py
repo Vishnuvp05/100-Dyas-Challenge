@@ -5,9 +5,10 @@ def fibonacci(n):
     if n==1:
         print(a)
     else:
+        print(a)
+        print(b)
         for i in range(2,n):
-            print(a)
-            print(b)
+            
             c=a+b
             a=b
             b=c
