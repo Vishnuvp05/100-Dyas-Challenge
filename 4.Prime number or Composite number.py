@@ -13,6 +13,6 @@ def is_prime(number):
 # Test the function
 num = 7
 if is_prime(num):
-    print(f"{num} is not a composite number")
+    print(f"{num} is  a composite number")
 else:
     print(f"{num} is prime number")
