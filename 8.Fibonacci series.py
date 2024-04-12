@@ -14,3 +14,4 @@ def fibonacci(n):
             b=c
             print(c)
 
+fibonacci(10)
