@@ -15,3 +15,45 @@ def fibonacci(n):
             print(c)
 
 fibonacci(10)
+
+
+#printing as a list
+
+def fibonacci(n):
+    f=[]
+    a=0
+    b=1
+    if n==1:
+        f.append(a)
+    else:
+        f.append(a)
+        f.append(b)
+        for i in range(2,n):
+            c=a+b
+            a=b
+            b=c
+            f.append(c)
+    print(f)
+
+fibonacci(4)
+
+
+#nth fibonacci number
+
+def fibonacci(n):
+    f=[]
+    a=0
+    b=1
+    if n==1:
+        f.append(a)
+    else:
+        f.append(a)
+        f.append(b)
+        for i in range(2,n):
+            c=a+b
+            a=b
+            b=c
+            f.append(c)
+    print(f[-1])
+
+fibonacci(100)
