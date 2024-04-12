@@ -26,3 +26,16 @@ def common(list1,list2):
 list1=[1,2,5]
 list2=[3,4,5]
 print(common(list1,list2))
+
+
+
+b=[]
+
+for i in list1:
+    if i not in list2:
+        b.append(i)
+for i in list2:
+    if i not in list1:
+        b.append(i)
+print(b)
+        
