@@ -21,3 +21,17 @@ def get_prime(st,e):
 a=get_prime(0,100)
 print(a)
 
+
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Generate a list of prime numbers from 2 to 100 using list comprehension
+prime_list = [x for x in range(2, 101) if is_prime(x)]
+print(prime_list)
+
