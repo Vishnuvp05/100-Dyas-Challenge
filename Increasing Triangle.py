@@ -4,9 +4,20 @@ for i in range(n):#row
     for j in range(i+1):#coloumn
         print('*',end='')
     print()
+#*
+#**
+#***
+#****
+#*****
 #or
 
-n = 5
-while n > 0:
+n = 1
+while n <=5:
     print(n * '*')
-    n -= 1
+    n += 1
+
+#*
+#**
+#***
+#****
+#*****
