@@ -74,3 +74,12 @@ def fibonacci(n):
     print(f[-1])
 
 fibonacci(100)
+
+#nth fibonacci number 
+
+def f(n):
+    if n<=1:
+        return n
+    else:
+        return f(n-1)+f(n-2)
+print(f(19))
