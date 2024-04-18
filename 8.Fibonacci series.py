@@ -15,7 +15,24 @@ def fibonacci(n):
             print(c)
 
 fibonacci(10)
+#using recursion 
+print(0)
+print(1)
+count=2
+def feb(p1,p2):
+    global count
+    if count<=5:
+        n=p1+p2
+        print(n)
+        p2=p1
+        p1=n
+        count+=1
+    
+        feb(p1,p2)
+    else:
+        return 
 
+# feb(1,0)
 
 #printing as a list
 
