@@ -33,7 +33,7 @@
 def convertToWave( n : int, a :list) -> None:
         # code here
         n = len(a)
-        for i in range(0, n, 2):
+        for i in range(1, n, 2):
             if i > 0 and a[i - 1] > a[i]:
                 a[i], a[i - 1] = a[i - 1], a[i]
             if i < n - 1 and a[i] < a[i + 1]:
